@@ -1,6 +1,6 @@
 # modsecurity-whitelist-apps
 
-> As of 2017-08-19 this project is mostly outdated. Also the OWASP 3.* Ruleset now includes exclusions for Drupal and WordPress so I would recommend using those for Drupal and Wordpress instead of this project.
+> As of 2017-08-19 this project is mostly outdated. The OWASP 3.* Ruleset now includes exclusions for Drupal and WordPress so I would recommend using those for Drupal and Wordpress exclusions instead of this project.
 
 These configuration files are for disabling certain ModSecurity OWASP CRS 2.2.9 and 3.0.0 and Trustwave Commercial ModSecurity rules that cause false positives with certain web applications. The goal is to disable any incompatible rules with popular web applications like Wordpress and Drupal.
 
